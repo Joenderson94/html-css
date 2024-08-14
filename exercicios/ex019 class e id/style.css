@@ -1,0 +1,32 @@
+body{
+    background-color: #23e95560;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #4abb6659, rgba(255, 255, 255, 0.938) );
+    background-attachment: fixed;
+}
+
+h1{
+    color: #316627;
+}
+h1#principal{
+    text-align: center;
+    background-color: #4A6651;
+    color: aliceblue;
+}
+h2{
+    color: rgb(56, 73, 27);
+}
+
+.basico{
+    color: rgb(231, 131, 49);
+}
+.intermediario{
+    color: blueviolet;
+}
+.avancado{
+    color: brown;
+}
+
+.destaque{
+    background-color: #4A6651;
+}

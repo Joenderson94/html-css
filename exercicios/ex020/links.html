@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        ::= pseudo-element
+        > = children
+        a:hover 
+        a:active
+        a::after
+        a::before
+        */
+        a{
+            color: brown;
+        }
+        a:hover{
+            color: blue;
+        }
+        a:active{
+            color: black;
+        }
+        a::before{
+            content: '👉';
+        }
+        a.negrito{
+            font-weight: bold;            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://youtube.com"  target="_blank" class="negrito">Meu YouTube</a>
+        <li><a href="https://instagram.com" target="_blank" class="negrito">Meu Instagram</a>
+        <li><a href="https://facebook,com" target="_blank" class="negrito">Meu Facebook</a>
+    </ul>
+</body>
+</html>

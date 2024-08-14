@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio imagem audio</title>
+</head>
+<body>
+    <h1>Desafio imagem FLEX com audio</h1>
+    <p>Imagem de ambiente tranquilo</p>
+    
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="erro ao carregar imagem">        
+    </picture>
+    <audio preload="metadata" autoplay>
+        <source src="midia/savana.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>

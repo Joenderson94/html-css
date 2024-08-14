@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(83, 80, 76);
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 20px;
+            box-shadow: 4px 4px 10px black;
+            }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+        }
+        article{
+            background-color: rgb(100, 131, 131);
+            padding: 3px;            
+        }
+        article > aside{
+            background-color: rgb(60, 60, 65);
+        }
+        nav{
+            background-color: rgba(47, 79, 79, 0.486);
+            box-shadow: 1px 1px 4px black;    
+        }
+        nav>a{
+            font-weight: bold;
+            margin-right:10px;            
+        }
+        nav > a:hover{
+            color: rgb(57, 6, 240);
+        }
+        footer>p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu Site</h1>
+    <nav>    
+        <a href="#">link</a>     
+        <a href="#">link</a>        
+        <a href="#">link</a>
+        <a href="#">link</a>        
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet quasi sed, veniam laudantium accusamus enim ad laboriosam cupiditate dignissimos fugit eos ex at! Adipisci optio sint quia hic quasi.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio imagem flex</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>você está vendo a imagem completa? experiemente ampliar seu navegador</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/img-pequena.jpg" type="image/jpg">
+        <source media="(max-width:1000px )" srcset="imagens/img-media.jpg" type="image/jpg">
+        <img src="imagens/img-grande.jpg" alt="img site">
+    </picture>
+</body>
+</html>
