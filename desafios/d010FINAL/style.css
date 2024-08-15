@@ -31,7 +31,7 @@ header{
     background-image: linear-gradient(to bottom,var(--cor4) , var(--cor3));    
     padding: 20px;
     max-height: 190px;     
-    min-width: 390px;    
+    min-width: 320px;    
     color: var(--cor0);       
 }
 
@@ -40,6 +40,7 @@ header >h1{
 }
 header>p{
     width: 400px;
+    min-width:320px
     text-align: center; 
     margin: auto;      
     font-weight: normal;
@@ -63,7 +64,7 @@ main{
     background-color: var(--cor1);    
     border-radius: 0px 0px 15px 15px ;
     max-width: 1000px;
-    min-width: 390px;
+    min-width: 320px;
     margin:auto; 
     margin-bottom: 30px;
     padding: 20px;    
