@@ -63,7 +63,7 @@ main{
     background-color: var(--cor1);    
     border-radius: 0px 0px 15px 15px ;
     max-width: 1000px;
-    min-width: 390px;
+    min-width: 360px;
     margin:auto; 
     margin-bottom: 30px;
     padding: 20px;    
