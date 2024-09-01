@@ -54,7 +54,7 @@ function handleKeyPress(event) {
         case '4': // Define o tempo para 30 seg
             setTime(30);
             break;
-        case '5': // Tecla Espaço para iniciar o temporizador
+        case '0': // Tecla Espaço para iniciar o temporizador
             startTimer();
             break;
         default:
