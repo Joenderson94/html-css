@@ -46,13 +46,16 @@ function handleKeyPress(event) {
             setTime(120);
             break;
         case '2': // Define o tempo para 1:25 min
-            setTime(85);
+            setTime(75);
             break;
         case '3': // Define o tempo para 1 min
-            setTime(60);
+            setTime(75);
             break;
         case '4': // Define o tempo para 30 seg
             setTime(30);
+            break;
+            case '5': // Define o tempo para 30 seg
+            setTime(60);
             break;
         case '0': // Tecla Espaço para iniciar o temporizador
             startTimer();
