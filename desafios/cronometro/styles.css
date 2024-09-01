@@ -15,9 +15,8 @@ body {
 
 div#timer {
     text-align: center;
-    background-color: rgb(1, 53, 148);
-    border: 10px solid dodgerblue;
-    color: white;
+    background-color: dodgerblue;
+    border: 10px solid  rgb(1, 53, 148);    
     width: 835px;
     height: 400px;    
     font-size: 20em;
