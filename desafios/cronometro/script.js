@@ -10,7 +10,7 @@ function updateDisplay() {
 }
 
 // Função para definir o tempo
-function setTime(minutes) {
+function setTime(opsegundos) {
     // Se o temporizador está rodando, pausar e limpar o intervalo
     if (isRunning) {
         clearInterval(timerInterval);
@@ -18,7 +18,7 @@ function setTime(minutes) {
     }
 
     // Atualiza o tempo
-    timeInSeconds = minutes;
+    timeInSeconds = opsegundos;
     updateDisplay();
 }
 
@@ -40,21 +40,21 @@ function startTimer() {
 }
 
 // Função para lidar com o pressionamento de teclas
-function handleKeyPress(event) {
+function atalho(event) {
     switch (event.key) {
-        case '1': // Define o tempo para 2 min
+        case '8': // Define o tempo para 2 min
             setTime(120);
             break;
-        case '2': // Define o tempo para 1:25 min
+        case '4': // Define o tempo para 1:25 min
             setTime(75);
             break;
-        case '3': // Define o tempo para 1:25 min
+        case '5': // Define o tempo para 1:25 min
             setTime(75);
             break;
-        case '4': // Define o tempo para 30 seg
+        case '7': // Define o tempo para 30 seg
             setTime(30);
             break;
-            case '5': // Define o tempo para 30 seg
+        case '6': // Define o tempo para 30 seg
             setTime(60);
             break;
         case '0': // Tecla Espaço para iniciar o temporizador
@@ -77,4 +77,4 @@ document.querySelectorAll('button[data-time]').forEach(button => {
 });
 
 // Adiciona o evento de pressionamento de tecla ao documento
-document.addEventListener('keydown', handleKeyPress);
+document.addEventListener('keydown', atalho);
